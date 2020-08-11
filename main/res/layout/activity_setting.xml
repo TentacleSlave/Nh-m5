@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.test.GiaoDien.SettingActivity">
+<TextView
+
+   style="@style/tieude"
+    android:text="@string/caidat"/>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/amthanh"
+        android:textSize="20dp"
+        />
+
+       <CheckBox
+           android:layout_marginLeft="20dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ngonngu"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:layout_marginLeft="20dp"
+            style="@style/btnimg"
+            android:id="@+id/btnVN"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/vn"/>
+        <Button
+            style="@style/btnimg"
+            android:id="@+id/btnEN"
+            android:background="@drawable/en"/>
+    </LinearLayout>
+</LinearLayout>

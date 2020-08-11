@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent">
+
+
+
+        <TextView
+            android:id="@+id/tvMaSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="001" />
+        <TextView
+            android:id="@+id/tvTenSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lúa"/>
+        <TextView
+            android:id="@+id/tvLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thực Phẩm" />
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgDelect"
+        android:src="@drawable/ic_delete_black_24dp"
+        />
+</LinearLayout>

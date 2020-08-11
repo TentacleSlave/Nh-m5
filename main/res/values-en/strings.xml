@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WAREHOUSE MANAGEMENT</string>
+    <string name="thoat">Exit</string>
+    <string name="luu">Save</string>
+    <string name="open">Open</string>
+    <string name="search">Search</string>
+    <string name="masanpham" translatable="false">Product Code</string>
+    <string name="tensanpham" translatable="false">Product Name</string>
+    <string name="loaisp" translatable="false">Sectors</string>
+
+    <string name="home">HOME</string>
+    <string name="ngonngu" translatable="false">" Language"</string>
+    <string name="sanpham">PRODUCT</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Update</string>
+    <string name="quanliannhac" translatable="false">MANAGE WAREHOUSE</string>
+    <string name="quanlisanpham" translatable="false">WAREHOUSE MANAGER</string>
+    <string name="caidat" translatable="false">Setting</string>
+    <string name="amthanh" translatable="false">Mucsic</string>
+</resources>

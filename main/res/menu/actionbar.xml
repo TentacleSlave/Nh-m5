@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/mnHome"
+    android:icon="@drawable/ic_home_black_24dp"
+    android:title="Home"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/mnOpen"
+        android:icon="@drawable/ic_folder_special_black_24dp"
+        android:title="Mở"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mnLuu"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:title="@string/luu"
+        app:showAsAction="ifRoom|withText"
+
+        />
+    <item
+        android:id="@+id/mnSetting"
+        android:title="@string/caidat"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="ifRoom|withText"
+    />
+    <item
+        android:id="@+id/mnThoat"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/thoat"
+        app:showAsAction="ifRoom|withText"
+
+        />
+
+</menu>

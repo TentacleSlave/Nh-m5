@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DangNhap">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/hinhanhdangnhap"
+        android:layout_marginTop="100dp"
+        >
+    </ImageView>
+
+    <TextView
+        style="@style/Login_account"
+        android:layout_marginTop="50px"
+        android:text="DangNhap"
+        android:textStyle="bold"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:id="@+id/txtusername"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"></EditText>
+
+    <EditText
+        style="@style/txt"
+        android:hint="@string/password"
+        android:id="@+id/txtpassword"
+        android:layout_marginTop="50px"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        >
+    </EditText>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="100px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+
+            android:drawableLeft="@drawable/ic_baseline_how_to_reg_24"
+            style="@style/btn"
+            android:text="@string/login"
+            android:background="#1703A9F4"
+            android:textStyle="bold"
+            android:id="@+id/btnlogin"
+            android:layout_marginRight="50px">
+        </Button>
+        <Button
+            android:drawableLeft="@drawable/ic_baseline_group_add_24"
+            style="@style/btn"
+            android:text="@string/Registration"
+            android:background="#1703A9F4"
+            android:textStyle="bold"
+            android:id="@+id/btnregistration"
+            >
+        </Button>
+        <Button
+            android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+            android:layout_marginLeft="50px"
+            style="@style/btn"
+            android:text="@string/exit"
+            android:background="#1703A9F4"
+            android:textStyle="bold"
+            android:id="@+id/btnExit">
+        </Button>
+    </LinearLayout>
+
+
+
+</LinearLayout>

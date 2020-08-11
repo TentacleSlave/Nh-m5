@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name" translatable="false">QUẢN LÍ KHO</string>
+    <string name="thoat" translatable="false">Thoát</string>
+    <string name="luu" translatable="false">Lưu</string>
+    <string name="open" translatable="false">Mở</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="masanpham" translatable="false">Mã Sản Phẩm</string>
+    <string name="tensanpham" translatable="false">Tên Sản Phẩm</string>
+    <string name="loaisp" translatable="false">loại sản phẩm</string>
+    <string name="home" translatable="false">TRANG CHỦ</string>
+    <string name="ngonngu" translatable="false">Ngôn Ngữ</string>
+    <string name="sanpham" translatable="false">THÔNG TIN SẢN PHẨM</string>
+    <string name="quanlikho" translatable="false"/>
+    <string name="them" translatable="false">Thêm</string>
+    <string name="xoa" translatable="false">Xóa</string>
+    <string name="sua" translatable="false">Sữa</string>
+    <string name="quanlisanpham" translatable="false">QUẢN LÍ KHO</string>
+    <string name="caidat" translatable="false">Cài đặt</string>
+    <string name="amthanh" translatable="false">Âm thanh:</string>
+    <string name="conlai" translatable="false">Sản phẩm còn lại</string>
+    <string name="banduoc" translatable="false">Sản phẩm đã bán</string>
+    <string name="app_name1" translatable="false">Quản Lý Siêu Thị</string>
+    <string name="title" translatable="false">Quản Lý Nhân Viên</string>
+    <string name="login" translatable="false">Đăng Nhập</string>
+    <string name="username" translatable="false">Tài khoản</string>
+    <string name="password" translatable="false">Mật khẩu</string>
+    <string name="bt_login" translatable="false">Login</string>
+    <string name="exit" translatable="false">Exit</string>
+    <string name="Registration" translatable="false">Đăng Ký</string>
+    <string name="Login_account" translatable="false">Login Account</string>
+    <string name="registration_account" translatable="false">registration Account</string>
+    <string name="agree" translatable="false">Đồng Ý</string>
+    <string name="cancel" translatable="false">Thoát</string>
+</resources>

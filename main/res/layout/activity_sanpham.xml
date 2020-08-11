@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainSanPham">
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/sanpham"
+        />
+
+    <EditText
+        android:id="@+id/txtsanpham"
+        style="@style/txt"
+        android:hint="@string/masanpham"
+        />
+    <EditText
+        android:id="@+id/txtTensanpham"
+        style="@style/txt"
+        android:hint="@string/tensanpham"
+         />
+    <EditText
+        android:id="@+id/loaisp"
+        style="@style/txt"
+        android:hint="@string/loaisp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:background="@drawable/click"
+            android:drawableLeft="@drawable/ic_add_box_black_24dp"
+            android:text="@string/them" />
+
+        <Button
+            android:id="@+id/btnXoa"
+           style="@style/btn"
+            android:background="@drawable/click"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/btn"
+            android:background="@drawable/click"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            android:id="@+id/btnClear"
+           style="@style/btn"
+            android:background="@drawable/click"
+            android:drawableLeft="@drawable/ic_clear_all_black_24dp"
+            android:text="Clear" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvDanhSach"/>
+</LinearLayout>
